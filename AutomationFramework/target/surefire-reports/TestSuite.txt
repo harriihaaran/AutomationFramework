@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 19.22 s <<< FAILURE! -- in TestSuite
+com.automation.testRunner.TestRunner.runScenario["Successful login with valid credentials", "Login functionality"](1) -- Time elapsed: 14.95 s <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.id: email (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.4', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/4h/ym2mlmg91z1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49473}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49473/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9256f44c0b079b98d794a29b60b1420
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.automation.pages.LoginPage.enterUsername(LoginPage.java:29)
+	at com.automation.stepDefinitions.LoginSteps.user_enters_valid_credentials(LoginSteps.java:27)
+	at ✽.User enters valid username and password(file:///Users/hariharanb/Desktop/automation_repo/AutomationFramework/AutomationFramework/src/test/java/com/automation/features/Login.feature:4)
+
