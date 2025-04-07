@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-01T11:32:17 IST" name="Surefire suite" finished-at="2025-04-01T11:32:32 IST" duration-ms="15409">
+  <suite started-at="2025-04-01T15:14:52 IST" name="Surefire suite" finished-at="2025-04-01T15:15:08 IST" duration-ms="15487">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.testRunner.TestRunner@703580bf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-04-01T11:32:17 IST" name="Surefire test" finished-at="2025-04-01T11:32:32 IST" duration-ms="15409">
+    <test started-at="2025-04-01T15:14:52 IST" name="Surefire test" finished-at="2025-04-01T15:15:08 IST" duration-ms="15487">
       <class name="com.automation.testRunner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.automation.testRunner.TestRunner@703580bf]" started-at="2025-04-01T11:32:17 IST" name="setUpClass" finished-at="2025-04-01T11:32:17 IST" duration-ms="413" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.automation.testRunner.TestRunner@703580bf]" started-at="2025-04-01T15:14:52 IST" name="setUpClass" finished-at="2025-04-01T15:14:53 IST" duration-ms="429" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@236ae13d]]>
+                <![CDATA[org.testng.TestRunner@26d5a317]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.testRunner.TestRunner@703580bf]" started-at="2025-04-01T11:32:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T11:32:32 IST" duration-ms="14947" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.testRunner.TestRunner@703580bf]" started-at="2025-04-01T15:14:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-01T15:15:08 IST" duration-ms="15009" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -40,20 +40,20 @@
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.4', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/4h/ym2mlmg91z1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49473}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49473/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c9256f44c0b079b98d794a29b60b1420]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/4h/ym2mlmg91z1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49868/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46d8f824697fd2ea29b57c580e7e1dd9]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: email (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.4', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/4h/ym2mlmg91z1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49473}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49473/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c9256f44c0b079b98d794a29b60b1420
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: /var/folders/4h/ym2mlmg91z1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49868/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46d8f824697fd2ea29b57c580e7e1dd9
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
 at com.automation.pages.LoginPage.enterUsername(LoginPage.java:29)
-at com.automation.stepDefinitions.LoginSteps.user_enters_valid_credentials(LoginSteps.java:27)
+at com.automation.stepDefinitions.LoginSteps.user_enters_valid_credentials(LoginSteps.java:23)
 at ✽.User enters valid username and password(file:///Users/hariharanb/Desktop/automation_repo/AutomationFramework/AutomationFramework/src/test/java/com/automation/features/Login.feature:4)
 ]]>
             </full-stacktrace>
@@ -61,11 +61,11 @@ at ✽.User enters valid username and password(file:///Users/hariharanb/Desktop/
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.automation.testRunner.TestRunner@703580bf]" started-at="2025-04-01T11:32:32 IST" name="tearDownClass" finished-at="2025-04-01T11:32:32 IST" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.automation.testRunner.TestRunner@703580bf]" started-at="2025-04-01T15:15:08 IST" name="tearDownClass" finished-at="2025-04-01T15:15:08 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="sendEmailReport()[pri:0, instance:com.automation.testRunner.TestRunner@703580bf]" started-at="2025-04-01T11:32:32 IST" name="sendEmailReport" finished-at="2025-04-01T11:32:35 IST" duration-ms="3453" status="PASS">
+        <test-method is-config="true" signature="sendEmailReport()[pri:0, instance:com.automation.testRunner.TestRunner@703580bf]" started-at="2025-04-01T15:15:08 IST" name="sendEmailReport" finished-at="2025-04-01T15:15:11 IST" duration-ms="3338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendEmailReport -->
