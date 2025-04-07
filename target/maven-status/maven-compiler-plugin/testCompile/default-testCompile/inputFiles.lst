@@ -1,0 +1,10 @@
+/Users/hariharanb/Desktop/automation_repo/AutomationFramework/src/test/java/com/automation/AppTest.java
+/Users/hariharanb/Desktop/automation_repo/AutomationFramework/src/test/java/com/automation/base/BaseTest.java
+/Users/hariharanb/Desktop/automation_repo/AutomationFramework/src/test/java/com/automation/hooks/Hooks.java
+/Users/hariharanb/Desktop/automation_repo/AutomationFramework/src/test/java/com/automation/stepDefinitions/LoginSteps.java
+/Users/hariharanb/Desktop/automation_repo/AutomationFramework/src/test/java/com/automation/testRunner/TestRunner.java
+/Users/hariharanb/Desktop/automation_repo/AutomationFramework/src/test/java/com/automation/utils/ConfigReader.java
+/Users/hariharanb/Desktop/automation_repo/AutomationFramework/src/test/java/com/automation/utils/EmailReport.java
+/Users/hariharanb/Desktop/automation_repo/AutomationFramework/src/test/java/com/automation/utils/ExtentHtmlReporter.java
+/Users/hariharanb/Desktop/automation_repo/AutomationFramework/src/test/java/com/automation/utils/ExtentReportUtil.java
+/Users/hariharanb/Desktop/automation_repo/AutomationFramework/src/test/java/com/automation/utils/ScreenshotUtil.java
